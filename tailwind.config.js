@@ -6,6 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        peach: {
+          50: '#fff4ec',
+          100: '#ffe7d6',
+          200: '#ffd4ba',
+          300: '#ffc19d',
+          400: '#ffad83',
+          500: '#ff9869',
+          600: '#f97f55',
+          700: '#de6443',
+          800: '#b94e36',
+          900: '#943f2d',
+        },
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
         geist: ['Geist', 'system-ui', 'sans-serif'],
